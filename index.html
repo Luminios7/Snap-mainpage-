@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"  content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&family=Open+sans:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <div class="header">
+  <img class="snap" src="images/logo.svg" alt="main header"><br>
+  <img  onclick="openMenu()" class="snap-b" src="images/icon-menu.svg" alt="menu-btn">
+  </div>
+  <div id="sidepanel" class="sidepanel">
+<a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+<button  class="features">Features<img class="drop" src="images/icon-arrow-down.svg" alt="arrow"></button>
+<div class="dropdown">
+  <div class="img">
+    <img src="images/icon-todo.svg" alt="to-do logo">
+    <img src="images/icon-calendar.svg" alt="calender logo">
+    <img src="images/icon-reminders.svg" alt="reminders logo">
+    <img src="images/icon-planning.svg" alt="planning logo">
+  </div>
+  <a  href="#">Todo List</a>
+  <a  href="#">Calender</a>
+  <a  href="#">Reminders</a>
+  <a  href="#">Planning</a>
+</div>
+<button class="company">Company<img class="drop" src="images/icon-arrow-down.svg"></button>
+<div class="dropdown">
+  <a href="#">History</a>
+  <a href="#">Our Team</a>
+  <a href="#">Blog</a>
+</div>
+<a href="#">Careers</a>
+<a href="#">About</a>
+<a href="#" class="log-btn">Login</a>
+<button class="regis-btn"><a href="#">Register</a></button>
+</div>
+<div id="toppanel">
+  <button class="features">Features<img class="drop" src="images/icon-arrow-down.svg"></button>
+<div class="dropdown" id="drop">
+  <div class="img">
+    <img src="images/icon-todo.svg" alt="to-do logo">
+    <img src="images/icon-calendar.svg" alt="calender logo">
+    <img src="images/icon-reminders.svg" alt="reminders logo">
+    <img src="images/icon-planning.svg" alt="planning logo">
+  </div>
+  <a  href="#">Todo List</a>
+  <a  href="#">Calender</a>
+  <a  href="#">Reminders</a>
+  <a  href="#">Planning</a>
+</div>
+<button class="company">Company<img class="drop" src="images/icon-arrow-down.svg"></button>
+<div class="dropdown" id="dropd">
+  <a href="#">History</a>
+  <a href="#">Our Team</a>
+  <a href="#">Blog</a>
+</div>
+<a class="others" href="#">Careers</a>
+<a class="others about" href="#">About</a>
+<div class="side">
+<a href="#" class="log-btn">Login</a>
+<button class="regis-btn"><a href="#">Register</a></button>
+</div>
+</div>
+</div>
+  
+ 
+  <img class="main" src="images/image-hero-mobile.png">
+  <div class="words">
+  <h1>Make remote work</h1>
+
+  <p>Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.</p>
+  </div>
+<button class="learn-btn">Learn more</button>
+<div class="logos">
+  <img src="images/client-databiz.svg">
+    <img src="images/client-audiophile.svg">
+    <img src="images/client-meet.svg">
+    <img src="images/client-maker.svg">
+</div>  
+
+
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://wwww.linkedin.com/in/olumide-olosunde-269611191">Luminios</a>.
+  </div>
+  <script type="text/javascript" src="intro-section-with-dropdown-navigation-main/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+#toppanel {
+    display: none;
+}
+.snap {
+    width: 200px;
+}
+.main{
+    width: 800px;
+    margin-top: 20px;
+}
+.words {
+ text-align: center;   
+}
+.words h1 {
+    font-size: 83px;
+    margin: 60px 0px 0px 60px;
+    font-weight:900;
+   width: 760px;
+   text-align:left;
+}
+.words p{
+    color:hsl(0, 0%, 41%);
+margin:25px 0px 0px 70px;
+font-size: 38px;
+width: 650px;
+text-align:center;
+}
+
+.learn-btn {
+    width: 230px;
+    height: 70px;
+    margin: 50px 0px 0px 290px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 8%);
+    color: #fff;
+}
+.logos img{
+    width: 150px;
+    margin: 80px 0px 0px 40px;
+    height:40px;
+}
+.logos {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+   margin:40px 0px 0px 30px;
+    
+}
+.snap-b{
+    width: 47px;
+    height: 30px;
+    position: absolute;
+    left:720px;
+    cursor: pointer;
+
+
+}
+#sidepanel {
+height:80em;
+width:0;
+position: absolute;
+z-index: 1;
+top: 0px;
+left:360px;
+background-color:#fff;
+padding-top: 80px;
+overflow-x:hidden;
+}
+
+#sidepanel a{
+    padding: 20px 8px 8px 90px;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+    transition: 0.3s;
+    color:  hsl(0, 0%, 41%);
+    cursor: pointer;
+}
+.features, .company {
+    border: none;
+    text-decoration: none;
+font-size: 25px;
+    color: hsl(0, 0%, 41%);
+    display: block;
+    text-align: left;
+    padding-left: -10px;
+} 
+
+
+.drop {
+    width: 17px;
+    margin-left: 20px;
+}
+.to-do {
+    width: 0px;
+
+}
+.log-btn {
+ margin: 60px 0px 0px 105px;   
+ cursor: pointer;
+}
+#sidepanel button{
+    margin: 20px 0px 0px 90px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 0px 0px 10px 0px;
+    background-color: #fff;
+    cursor: pointer;
+}
+#sidepanel a:hover{
+    color:#111;
+}
+#sidepanel .closebtn {
+    position: absolute;
+    left: 270px;
+    top: 0px;
+
+}
+.dropdown {
+    display: none;
+    padding-left: 60px;
+    
+}
+.regis-btn {
+    
+    height: 50px;
+    color: black;
+    position: relative;
+    left: 10px;
+    
+}
+.regis-btn a {
+    margin: -13px 0px 0px -78px;
+}
+.img {
+    width:25px;
+    margin: -9px 0px 0px 48px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+align-content: space-between;
+   
+}
+.img img{
+    margin: 31px 0px 0px 0px;
+}
+.attribution {
+    width: 300px;
+    font-size: 20px;
+    margin-top:100px ;
+    background-color: #b0b844;
+    color:hsl(0, 51%, 8%)
+}
+@media screen and (min-width:800px){
+   body {
+    background-image: url(images/image-hero-desktop.png);
+    background-repeat: no-repeat;
+  background-position-x: 57rem;
+  background-position-y:200px;
+  background-size: 510px;
+
+   
+}
+
+.snap-b {
+display: none;
+    }
+    .main{
+        display: none;
+
+    }
+
+.words h1{
+    font-size: 100px;
+    text-align: left;
+    width: 550px;
+    margin: 160px 0px 0px 170px;
+}
+.words p {
+    text-align: left;
+    font-size: 25px;
+    width: 500px;
+    margin: 50px 0px 0px 180px;
+}
+.snap {
+    width: 100px;
+}
+.learn-btn {
+    margin: 70px 0px 0px 180px;
+}
+.logos {
+    margin-left: 95px;
+}
+.logos img {
+    width: 90px;
+}
+#sidepanel{
+    display: none;
+}
+#toppanel {
+   display: flex;
+    margin: -40px 0px 0px 190px;
+
+}
+.drop {
+    position: relative;
+bottom: 30px;
+left:110px;
+}
+.features, .company, .regis-btn {
+    background-color: #fff;
+}
+.dropdown a  {
+display: block;
+margin: 24px 0px 0px 39px;
+font-size: 20px;
+color: #111;
+text-decoration: none;
+}
+.dropdown {
+    border: 1px solid #fff;
+background-color: #fff;
+box-shadow: 0px 0px 10px 1px rgb(199, 199, 224);
+border-radius: 10px;
+width: 195px;
+height:207px ;
+padding-left: 30px;
+}
+.dropdown .img {
+    width: 20px;
+    position: absolute;
+    top:6px;
+    right: 140px;
+}
+
+.company,.features {
+    font-size: 25px;
+    margin: -10px 40px 0px 30px ;
+}
+#dropd{
+    position: absolute;
+    top: 90px;
+    left: 400px;
+    padding-left: 0px;
+    width: 140px;
+    height: 170px;
+}
+#drop{
+    position: absolute;
+    top:90px;
+    left: 160px;
+}
+#dropd a {
+margin-left: 30px;
+}
+.others {
+    text-decoration: none;
+    font-size: 25px;
+    color:hsl(0, 0%, 41%);
+    margin: 12px 10px 0px 40px;
+}
+.side {
+    display: inline-flex;
+    margin:0px 0px 0px 600px;
+    }
+    .log-btn{
+        position: relative;
+        bottom: 45px;
+      right:220px;
+        text-decoration: none;
+        color:hsl(0, 0%, 41%);
+        font-size: 25px;
+    }
+    .regis-btn {
+        width: 150px;
+        height: 48px;
+        border-radius: 15px;
+       position: relative;
+       left: -170px;
+       top:10px;
+       text-align: center;
+    }
+    .regis-btn a {
+        font-size: 25px;
+        color:hsl(0, 0%, 41%);
+        text-decoration: none;
+            margin-left: 1px;
+    }
+ .features:hover, .company:hover, .log-btn:hover,.regis-btn a:hover,.about:hover{
+color: #111;
+}
+.learn-btn:hover {
+    background-color: #fff;
+    color:#111;
+}
+.img img {
+    margin-top: 25px;
+}
+
+} 
+
